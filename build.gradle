@@ -15,7 +15,7 @@ plugins {
 }
 
 ext['springBootVersion'] = '2.2.5.RELEASE'
-ext['apacheCamelVersion'] = '3.0.1'
+ext['apacheCamelVersion'] = '2.25.1'
 ext['kotlinVersion'] = '1.3.61'
 ext['groovyVersion'] = '2.5.9'
 ext['qualityPluginVersion'] = '3.0.0'
@@ -124,7 +124,6 @@ dependencies {
     //Groovy
     implementation("org.codehaus.groovy:groovy-all:${groovyVersion}")
 
-
     //Spring Boot
     implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf:${springBootVersion}")
@@ -133,8 +132,10 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}")
 
     //Camel
-    //implementation("org.apache.camel:camel-spring-boot-starter:${apacheCamelVersion}")
+    implementation("org.apache.camel:camel-spring-boot-starter:${apacheCamelVersion}")
     implementation("org.apache.camel:camel-core:${apacheCamelVersion}")
+    implementation("org.apache.camel:camel-netty:${apacheCamelVersion}")
+    implementation("org.apache.camel:camel-netty4:${apacheCamelVersion}")
 
     //excel
     implementation("org.apache.poi:poi:${poiVersion}")
