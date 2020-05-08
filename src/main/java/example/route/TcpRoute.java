@@ -17,7 +17,7 @@ public class TcpRoute extends RouteBuilder {
 //                    }
 //                }).end();
 
-        from("netty4:tcp://0.0.0.0:8081")
+        from("netty4:tcp://0.0.0.0:8081?textline=true")
                 .log("got here")
                 .process(exchange -> {
             String body = exchange.getIn().getBody(String.class);
