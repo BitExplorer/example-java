@@ -11,7 +11,7 @@ public class PersonService {
 
     ObjectMapper objectMapper = new ObjectMapper();
 
-    @Scheduled(fixedDelay = 5000)
+    @Scheduled(fixedDelay = 500000)
     public void runMe() throws JsonProcessingException {
 
         String payload = "{\n" +
