@@ -45,7 +45,7 @@ public class TcpRoute extends RouteBuilder {
 
         from("seda:ONE_QUEUE?size=1000&concurrentConsumers=5&blockWhenFull=true")
                 .process(messageProcessor)
-                .log(LoggingLevel.INFO, "divert message sent.")
+                .log(LoggingLevel.INFO, " message sent.")
                 .to("netty4:tcp://localhost:8082?sync=true")
         .end();
 
