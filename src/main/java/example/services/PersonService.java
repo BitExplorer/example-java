@@ -15,9 +15,9 @@ public class PersonService {
     public void runMe() throws JsonProcessingException {
 
         String payload = "{\n" +
-                "    \"first_name\": \"brian1\",\n" +
-                "    \"middle_name\": \"middle1\",\n" +
-                "    \"last_name\": \"henninb1\"\n" +
+                "    \"first_name\": \"brian\",\n" +
+                "    \"middle_name\": \"middle\",\n" +
+                "    \"last_name\": \"henning\"\n" +
                 "}";
 
         Person person = objectMapper.readValue(payload, Person.class);
