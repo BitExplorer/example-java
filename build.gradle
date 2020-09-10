@@ -19,7 +19,7 @@ plugins {
 ext['springBootVersion'] = '2.3.3.RELEASE'
 ext['apacheCamelVersion'] = '3.1.0'
 ext['kotlinVersion'] = '1.4.0'
-ext['groovyVersion'] = '3.0.4'
+ext['groovyVersion'] = '3.0.5'
 ext['qualityPluginVersion'] = '3.0.0'
 ext['codenarcPluginVersion'] = '0.20.0'
 ext['activemqVersion'] = '5.16.0'
@@ -70,41 +70,6 @@ repositories {
     }
 }
 
-//sourceSets {
-//    main.java.srcDirs += 'src/main/java'
-//
-//    test {
-//        groovy.srcDir 'src/test/unit/groovy'
-//        groovy.srcDir 'src/test/unit/java'
-//        resources.srcDir 'src/main/resources'
-//        compileClasspath += sourceSets.main.output + configurations.testRuntimeClasspath
-//        runtimeClasspath += output + compileClasspath
-//    }
-//
-//    integrationTest {
-//        groovy.srcDir 'src/test/integration/groovy'
-//        resources.srcDir 'src/main/resources'
-//        compileClasspath += sourceSets.main.output + configurations.testRuntimeClasspath
-//        runtimeClasspath += output + compileClasspath
-//    }
-//
-//    functionalTest {
-//        groovy.srcDir 'src/test/functional/groovy'
-//        resources.srcDir 'src/main/resources'
-//        compileClasspath += sourceSets.main.output + configurations.testRuntimeClasspath
-//        runtimeClasspath += output + compileClasspath
-//    }
-//
-//    performanceTest {
-//        groovy.srcDir 'src/test/performance/groovy'
-//        resources.srcDir 'src/main/resources'
-//        compileClasspath += sourceSets.main.output + configurations.testRuntimeClasspath
-//        runtimeClasspath += output + compileClasspath
-//    }
-//}
-
-
-
 compileJava {
     options.annotationProcessorPath = configurations.annotationProcessor
 }
@@ -118,9 +83,6 @@ dependencies {
 //    implementation("org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}")
 //    implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
 //    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:${jacksonKotlinVersion}")
-
-    //Groovy
-    //implementation("org.codehaus.groovy:groovy-all:${groovyVersion}")
 
     //Spring Boot
     implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
