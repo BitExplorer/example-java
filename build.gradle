@@ -96,6 +96,10 @@ dependencies {
     //implementation("org.apache.camel:camel-netty:${apacheCamelVersion}")
     //implementation("org.apache.camel:camel-netty4:${apacheCamelVersion}")
 
+    //activemq
+    // https://mvnrepository.com/artifact/org.apache.activemq/activemq-all
+    implementation("org.apache.activemq:activemq-all:$activemqVersion")
+
     //excel
     implementation("org.apache.poi:poi:${poiVersion}")
     implementation("org.apache.poi:poi-ooxml:${poiVersion}")
