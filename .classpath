@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test,functionalTest,integrationTest,performanceTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test,functionalTest,integrationTest,performanceTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/unit/groovy">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/functionalTest" kind="src" path="src/test/functional/groovy">
+		<attributes>
+			<attribute name="gradle_scope" value="functionalTest"/>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/functionalTest" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="functionalTest"/>
+			<attribute name="gradle_used_by_scope" value="functionalTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/integrationTest" kind="src" path="src/test/integration/groovy">
+		<attributes>
+			<attribute name="gradle_scope" value="integrationTest"/>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/integrationTest" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="integrationTest"/>
+			<attribute name="gradle_used_by_scope" value="integrationTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/performanceTest" kind="src" path="src/test/performance/groovy">
+		<attributes>
+			<attribute name="gradle_scope" value="performanceTest"/>
+			<attribute name="gradle_used_by_scope" value="performanceTest"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/performanceTest" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="performanceTest"/>
+			<attribute name="gradle_used_by_scope" value="performanceTest"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11/"/>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/d748b7f84f0e1afa7b03d0205ab16302f23d126c/lombok-1.18.16-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.16/6dc192c7f93ec1853f70d59d8a6dcf94eb42866/lombok-1.18.16.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.3.4.RELEASE/e4cf4305b0aa3c837df28cc1c576b20339d28cd7/spring-boot-starter-web-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.3.4.RELEASE/fe00611add5307c1f25f955b5229b7dddaaa2ff4/spring-boot-starter-web-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/2.3.4.RELEASE/c6555501d4447d93b419aa6b40922efdf8941a1d/spring-boot-starter-thymeleaf-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/2.3.4.RELEASE/421f81dc02f831ec9d2a5e29b5bb1186b1ada15/spring-boot-starter-thymeleaf-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.3.4.RELEASE/97d25ad1b8b1806ac2873e38a82a6e6a50e0a4fb/spring-boot-starter-actuator-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.3.4.RELEASE/44aebd5ec26be2d2ff3f72d2181001aad1f94f4a/spring-boot-starter-actuator-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/2.3.4.RELEASE/82fc6e0b93994fc5372d8060f8138545e8cee5/spring-boot-starter-data-jpa-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/2.3.4.RELEASE/a8b9828649248d762d1d3fc6898c8d7e471e1a8e/spring-boot-starter-data-jpa-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/2.3.4.RELEASE/c89fb12b73da6ffdff234b00331576886d50a5ba/spring-boot-starter-validation-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/2.3.4.RELEASE/8f2509793e36e9c09323cb7b88413f9dac69a47f/spring-boot-starter-validation-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core/3.6.0/2dd13bcb81703fc11d730b1174bb989b00f24137/camel-core-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-all/5.16.0/5dd28dae7f2abe9038264762818f6809c88343c2/activemq-all-5.16.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-all/5.16.0/16a056274576b6463fbfcb31628be76ca290841/activemq-all-5.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.2/712cc02d5bbe729d2485a1579f3d8dfc47e25b51/poi-ooxml-4.1.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.2/87d9a22aa9a7dd26e80c360e709f7ee02e32ab3b/poi-ooxml-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/ac5af3832ebaef94562a39591a000338bbae0e4b/poi-4.1.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.2/964bf41cf68bce08e4ef6b2279b559fdf8d454f4/poi-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.21.Final/8e95be7232d91bcc885d6069c3a87bc296c99e27/hibernate-core-5.4.21.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.4.21.Final/7cc737047ce084bf732adbb7f4064a16fd26229a/hibernate-core-5.4.21.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.2/b44caf3f4e0eddc4cf124a6aef768b9a93521c21/hibernate-jpa-2.1-api-1.0.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.2/cc986fd1a62ae50308a56041c7a7d52ee5f49fb6/hibernate-jpa-2.1-api-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/4b714a5167580122e46ead3317ffcdcdbd67c5f0/validation-api-2.0.1.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/2.0.1.Final/cb855558e6271b1b32e716d24cb85c7f583ce09e/validation-api-2.0.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.3.4.RELEASE/c1ab495080b4e6b34b3b31d84d35a56acab2a473/spring-boot-starter-json-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.3.4.RELEASE/1fac4d2fa9d2827e5e7a2c11ccc50f8dea2e95b/spring-boot-starter-json-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.3.4.RELEASE/89af1d405a97e369a7e5ccba3ba01a3968728036/spring-boot-starter-aop-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.3.4.RELEASE/d3f6346c22a693830f2b7099b8a2dd531f771a4b/spring-boot-starter-aop-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/2.3.4.RELEASE/a8fb82a533fa9fe23c66d7962aebb7dd84875b4b/spring-boot-starter-jdbc-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/2.3.4.RELEASE/77ca3fe49c6f9bb62fec474ebfc0c529bf048fd4/spring-boot-starter-jdbc-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.3.4.RELEASE/819f6e3ae65f04ba27df3985760914a3b9503fd9/spring-boot-starter-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.3.4.RELEASE/cfeb7cce94a342b4b31b64c42a82c287c2f17207/spring-boot-starter-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.3.4.RELEASE/677a66ac80e88cefaaca64e72b5523eb4836b7ae/spring-boot-starter-logging-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.3.4.RELEASE/677a66ac80e88cefaaca64e72b5523eb4836b7ae/spring-boot-starter-logging-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.6/4235f5ece10c4634363a034e8e97246cc16760e7/groovy-ant-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/3.0.6/9cbbc79a9ca3c3aeae530c8b851fb6a86f95f180/groovy-ant-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.6/c4f5b1123003c138dcebf618d6ff61bb22a53a82/groovy-astbuilder-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-astbuilder/3.0.6/1c220b73a5a17154e218a1086d93fed61dbbf910/groovy-astbuilder-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/3.0.6/9e0e2a70738df6d5fbfe84559c10f1d854da528a/groovy-cli-picocli-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/3.0.6/e58f2334e863e334cb816e9347b26740f587c28d/groovy-cli-picocli-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.6/c02b07b4df5dd046a9d7731c9aaad48fe76e6d8d/groovy-console-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/3.0.6/5f056343480e5356945f5fd1867940a5d3c14414/groovy-console-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.6/6277546b28e82f9108ec9e8f4dcbee9db6998b5/groovy-datetime-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/3.0.6/40ae7fc06c8478e9db8ce9d4e13878cc0d0d1cde/groovy-datetime-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.6/5c71106d16ca58ad10f760c0af16ae02035b68d0/groovy-groovydoc-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/3.0.6/5374d185dd12471f65b76c8c2f297e7347f59046/groovy-groovydoc-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/3.0.6/e5d42789fda0b0d3a9096547b1113e77192dfe00/groovy-jmx-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/3.0.6/185ec70cce90e385057cc587a0480168b1ad0673/groovy-jmx-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.6/b20f5f8ff32ec5bd50fc7ec6c624b44f6423cedf/groovy-json-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/3.0.6/809c823c751b1d65e5411cf40a82978c691d464d/groovy-json-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/3.0.6/4aa7aea932759ee027d8fef1c89c81306fcdffd/groovy-jsr223-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/3.0.6/13feb5fd64294ab0ea538a818ba49d33668f76e6/groovy-jsr223-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/3.0.6/702294cef3b6b7334a4ac64a011504f3e39fe01b/groovy-macro-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/3.0.6/feb48095a4d88b824240d2b2ae829e7dad64b892/groovy-macro-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.6/56a03fbf3ee169ab8e0fc275bd3c3a52c24e5dc8/groovy-nio-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/3.0.6/e9c30281e2691ba06a15c58ac31071dd2042c734/groovy-nio-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/3.0.6/d11b84ac635d9b02c15f20d798c23b7b0add08f8/groovy-servlet-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/3.0.6/3bea57cc7eedd9549065be838868883082eeb1fc/groovy-servlet-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.6/c969a127d6a6ab0e90e6c219d924dad66cfe154e/groovy-sql-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/3.0.6/6034fccae4fd4d8817c3da91fca4c66b3882a89c/groovy-sql-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/3.0.6/79298935899110b5d55c29ff294f015d1dabd9c4/groovy-swing-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/3.0.6/af5273c5c0bb80249e50afa412cd7325f83d0cca/groovy-swing-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.6/1cbd1076294d220313c5ec0afa33bafbb5f0548f/groovy-templates-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/3.0.6/a87537f770e5cdbb304374e897c8d79053e3eee5/groovy-templates-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.6/101ab251fd7c21ac8e0e19a7bd9b1ffb0d18f37/groovy-test-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/3.0.6/488fa65f565f62d952ce47ee64f567d0fd1e64a7/groovy-test-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/3.0.6/d4b96abd0a68a0393e116d95f7c2b76eaaba4954/groovy-test-junit5-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/3.0.6/1d8ecbf5bed509188477eb4078f86f4a7ef4eb8f/groovy-test-junit5-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/3.0.6/a770b5da5ec6c1bf4cf8154795bd335147a7f0c2/groovy-testng-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/3.0.6/b390d424bf84add3d1eb396310404c426f9906b8/groovy-testng-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.6/9be6fef17d3eea50d764b4f712d7aa9b30099958/groovy-xml-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/3.0.6/c1cd0217c753539dceb1709510945859d4f9f4da/groovy-xml-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.6/cd42a67d54e8babd1e586d4d8fc2fdde14b2e6d6/groovy-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/3.0.6/bcd7a821c6a3effef69ae38ecd97439cf136d5e9/groovy-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/3.0.6/2f8e02137e93848ea8545a9aaf85f550bd343638/groovy-docgenerator-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/3.0.6/1193a27c261c8e258115662af9455b33b48ae9b4/groovy-docgenerator-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/3.0.6/e3ab873670a055b92c65928307602cae2a58a1af/groovy-groovysh-3.0.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/3.0.6/675f17b08f95330ad86279230cb8a0658a37d0a3/groovy-groovysh-3.0.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.3.4.RELEASE/acffbb94a26dd1b7e9c38795797197e2dcb9d2e5/spring-boot-starter-tomcat-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.3.4.RELEASE/acffbb94a26dd1b7e9c38795797197e2dcb9d2e5/spring-boot-starter-tomcat-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.9.RELEASE/71f985335f0047926e461cc51d6b2e21c1401b5/spring-webmvc-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/5.2.9.RELEASE/bec8682df7622707f067f98457ee95a8f276de80/spring-webmvc-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.9.RELEASE/90886dd59f07146e3bac519c2d8593c947eaa8f8/spring-web-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.2.9.RELEASE/4bc4a60b74ea0a92ed09d41c675f8426324b4e56/spring-web-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/e4caf542f3f03b2966789b237c7827ae7de6960f/thymeleaf-spring5-3.0.11.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring5/3.0.11.RELEASE/de7bf0adf13b5e9c4811f95edf18279da193c0c6/thymeleaf-spring5-3.0.11.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-java8time/3.0.4.RELEASE/7773e85b03657ddc42d124d7553d856fb512f5bf/thymeleaf-extras-java8time-3.0.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.thymeleaf.extras/thymeleaf-extras-java8time/3.0.4.RELEASE/36e7175ddce36c486fff4578b5af7bb32f54f5df/thymeleaf-extras-java8time-3.0.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.3.4.RELEASE/9577218734d1aa5e1c4c0435f1a8c060f34e2b4c/spring-boot-actuator-autoconfigure-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.3.4.RELEASE/17b36fb863a9d993b898e7521fa7bdd39cee3fa7/spring-boot-actuator-autoconfigure-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.5.5/af53026a226ab0e0f92bd4554062f7b0797bbea6/micrometer-core-1.5.5-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.5.5/f99c57087263b2db589390603c3a0f8b1ab8deaa/micrometer-core-1.5.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/1.3.3/4ea5dba7d38f64e274bd3b0f0314383f009583ec/jakarta.transaction-api-1.3.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/1.3.3/c4179d48720a1e87202115fbed6089bdc4195405/jakarta.transaction-api-1.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/2.2.3/f9671636b64baca8130e3fcf516894d40173b47f/jakarta.persistence-api-2.2.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/2.2.3/8f6ea5daedc614f07a3654a455660145286f024e/jakarta.persistence-api-2.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.3.4.RELEASE/1f167abe512b735a0f977ba71fd5d3a20b9fcb53/spring-data-jpa-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.3.4.RELEASE/d564e9ce9bf4dd6183dd417625efa97e4a13f4ac/spring-data-jpa-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/5.2.9.RELEASE/2dfe3d29c70f4aa536d328754a8307b7fb9f8175/spring-aspects-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/5.2.9.RELEASE/6726b662c862e8bf297c9251e7851fbc9fe01d84/spring-aspects-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.glassfish/jakarta.el/3.0.3/1c224778fa1b2851e91400dd335f1a96a4b5b30/jakarta.el-3.0.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.glassfish/jakarta.el/3.0.3/dab46ee1ee23f7197c13d7c40fce14817c9017df/jakarta.el-3.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.1.5.Final/46e17e81dac3ffcd2cea55c3632757e4094fb164/hibernate-validator-6.1.5.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate.validator/hibernate-validator/6.1.5.Final/e5539b4b05c1520a9b4c0a120fd6e4984a8d5dc8/hibernate-validator-6.1.5.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core-languages/3.6.0/7c2bbe14b9ed3c7f34680028d31806998d31f742/camel-core-languages-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core-languages/3.6.0/b409078d53afa30fc9540686489643cf52a70e7e/camel-core-languages-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-file/3.6.0/c4d5a68b2d741e3f9275a2dadf4396b176bf2771/camel-file-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-file/3.6.0/12780e1f042ec6f8c604f42747f80602749a3d57/camel-file-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-cluster/3.6.0/abd5c1e82cd4de79c45c23914be3fce54536244f/camel-cluster-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-cluster/3.6.0/2b1651a0f4c95db0caac167ac5270d6bfe9defa3/camel-cluster-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-health/3.6.0/45cd7358597724a8dd9acf6c8523bee40dd5b01b/camel-health-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-health/3.6.0/846ecded00bddab5e7b25f0f2ae62ccf48849d1b/camel-health-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xml-jaxb/3.6.0/1d8fa60294376d9bf6b7fc8341d9d4cc4fb4b9b5/camel-xml-jaxb-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xml-jaxb/3.6.0/eef0b8cfa2127781831fbde71152a5bb5fe95727/camel-xml-jaxb-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core-engine/3.6.0/41edc5a7ce954fc09e2d728267905c392f29af7b/camel-core-engine-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core-engine/3.6.0/4acc9c872b81da2ebc30bfb3c9889c37e2295547/camel-core-engine-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-bean/3.6.0/bbf5b7ab26098ce62bcc2342db27ac13b945caa2/camel-bean-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-bean/3.6.0/a3ed950177be57ecf6ff68d2b1bc2e138414ccbe/camel-bean-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-browse/3.6.0/ae1589c41b917e6aeb265d887936b05ddfbba518/camel-browse-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-browse/3.6.0/a4ae6bb82211506efb0e1c217ac68ecaad05182e/camel-browse-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-caffeine-lrucache/3.6.0/33d3e8dd343ef8de389c6a39969527caf9ea9a3/camel-caffeine-lrucache-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-caffeine-lrucache/3.6.0/17cf9ac9124013d2227ff5f2650acee4420ce803/camel-caffeine-lrucache-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-controlbus/3.6.0/68a2ce9ca9399fb45fe753ec76dd8e909374248c/camel-controlbus-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-controlbus/3.6.0/3345c5722aacc98e534fc9d47b78b02ac1337e5e/camel-controlbus-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-dataformat/3.6.0/722fa2b6d54e89eb29d60718fe509360c57cb07b/camel-dataformat-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-dataformat/3.6.0/2392d308797f645cbce83240174766e7145f0886/camel-dataformat-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-dataset/3.6.0/b43551c9611fdfd410b4cae239d974558a78e643/camel-dataset-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-dataset/3.6.0/4476006f0e9e7e39edc1eec9e12b3630f5f22438/camel-dataset-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-direct/3.6.0/71616832dd54361add1e669d9dbc678472e27567/camel-direct-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-direct/3.6.0/9cfa3a86bf3ca93b503c52a69fdc19e5526c37f9/camel-direct-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-directvm/3.6.0/722bcd4e559eedf308a4536280e5e487408dc227/camel-directvm-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-directvm/3.6.0/99dcc219fc7e1b3d8a7c5945e2a82063a958b37d/camel-directvm-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-language/3.6.0/457e4b521766a044ffd153a2f10afddcdf50860f/camel-language-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-language/3.6.0/f6ec54b823c91a43359f0d606711bc5894ab0f/camel-language-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-log/3.6.0/e702fe0fe4c7476db3893bf6984ee5469b122cef/camel-log-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-log/3.6.0/12e7a8fa63d72c408cc1c1b3e901d0874bdaef1e/camel-log-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-mock/3.6.0/6499d6e37207c6d0af20cf46a375fa09655202b3/camel-mock-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-mock/3.6.0/2a790b2ee7a3b6bba20164bcc0d48c13a062be7/camel-mock-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-ref/3.6.0/7ef450f9bfb638e831d9ea5806ddc993696d90b/camel-ref-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-ref/3.6.0/a978e68deca015b2a30e95d42ecfb434b464d708/camel-ref-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-rest/3.6.0/177d9966c6a7ce7948c30939bf8a9d9fadd218e3/camel-rest-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-rest/3.6.0/449dfc3c2ea6da97f5e227dc302cf0c41541c36/camel-rest-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-saga/3.6.0/39b1b1f367879b22a4a4f544d91c1e75b5a40e4d/camel-saga-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-saga/3.6.0/11773f9553c60ef7e3366599a4d93737cb776375/camel-saga-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-scheduler/3.6.0/95fa56ee509af8de9455a921659b3fb483021bc3/camel-scheduler-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-scheduler/3.6.0/e067defb96f650febfdc185c8a39b6cae1093828/camel-scheduler-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-stub/3.6.0/841c9c905a62baa053f2078fa2c1ba278661baaf/camel-stub-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-stub/3.6.0/eaae9f6bf1c0b40a4de40fbb3c9867abe592b2aa/camel-stub-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-vm/3.6.0/a0b9329dbbccfed9239914a18b3eaa53be4550d9/camel-vm-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-vm/3.6.0/76e3d7643bc6c084838fb3167593129c8091e35/camel-vm-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-seda/3.6.0/56dc8b7b07b2a38d2d707d57427b4ff70381a413/camel-seda-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-seda/3.6.0/338be9ef7cc8a08bae56cc87d6f0b3da8215aa25/camel-seda-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-timer/3.6.0/9125cbe79d3ecd742e438744b6aa1f1b458b2a86/camel-timer-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-timer/3.6.0/a5ca7c995dd22ba0bec50df9f294762c58f5b822/camel-timer-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-validator/3.6.0/523672b2ad92575185dbe183aaf92c6faf714f46/camel-validator-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-validator/3.6.0/142a66d49443362a455412946c64f257e0892ded/camel-validator-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xpath/3.6.0/5ccf4d42525d5dcf0065ca429177bf559a686062/camel-xpath-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xpath/3.6.0/d01f2859e4c211773cc878b995e739a281c2eed3/camel-xpath-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xslt/3.6.0/d7bfaca241bc6c333b8b079d4f174d5924867814/camel-xslt-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xslt/3.6.0/9395547cffa623d5f23e2a7fc930d1f0e13c8002/camel-xslt-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xml-jaxp/3.6.0/f75834b60a32c08edbc4ff46804f4c5f2f2b44d6/camel-xml-jaxp-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xml-jaxp/3.6.0/8552c4eaf83e3a1f5b94918e1e8130f5799fd665/camel-xml-jaxp-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.11.RELEASE/ee416ec60f6292587ac14d37a8151d79c4c0b364/thymeleaf-3.0.11.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.11.RELEASE/628ebb91f520053d4120b7b18bf78ff295d57461/thymeleaf-3.0.11.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.5/44a9f83d5baa78a1c43307400f6b9a95d39980d0/HikariCP-3.4.5-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/3.4.5/aa1a2c00aae8e4ba8308e19940711bb9525b103d/HikariCP-3.4.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.3.4.RELEASE/689290fbf0a93b99f2ef231c4c04eaf6379cc703/spring-data-commons-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.3.4.RELEASE/a2051be2c44a59a430fa610ae8a8dc31ad18f0e0/spring-data-commons-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-base/3.6.0/21c36935dc679484ace850080348fd7e9ea7e166/camel-base-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-base/3.6.0/f7ea17cc3b733653b025f3c3e835d668765b3dbd/camel-base-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-support/3.6.0/30537df60b47c763dd5b9813dfed61bc3558a892/camel-support-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-support/3.6.0/7d0205dab78f4e6d2ecf43c2573277707636cbb4/camel-support-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-api/3.6.0/d65d06cddd48d8f3306e17f3ab6da247dfd10179/camel-api-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-api/3.6.0/c38c9d12bc9388ab5d3b0ef95b714562c11d3041/camel-api-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-management-api/3.6.0/c845d1d690ea2f905ca0985483879d011b6c479d/camel-management-api-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-management-api/3.6.0/671ef7aa089fb1bab83e7a1a72f6a98deda9b89a/camel-management-api-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-util/3.6.0/8848bd516b9298e7e9757584a6c081e005b05c32/camel-util-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-util/3.6.0/6a39611295d7a5fd072daeaccd45e278ce03a2c7/camel-util-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.13.3/de5b2dbbd7cc08eac97c2bdc96ff36178a32d8d7/log4j-to-slf4j-2.13.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.13.3/966f6fd1af4959d6b12bfa880121d4a2b164f857/log4j-to-slf4j-2.13.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/f9e7f2ae73c3ef9c375a325cea1ef1dcc2613579/jul-to-slf4j-1.7.30-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.30/d58bebff8cbf70ff52b59208586095f467656c30/jul-to-slf4j-1.7.30.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/71a1fdefa224da50f1db6306ce609981e20186c9/slf4j-api-1.7.30-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.13/226247b40160f2892fa4c7851b5b913d5d10912d/commons-codec-1.13-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.13/3f18e1aa31031d89db6f01ba05d501258ce69d2c/commons-codec-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/8fab23986ea8886af34818daf32a718e81dc98ba/commons-math3-3.6.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/ee5e8ac60eb99a373a4d3e0a35d1feccfabddc33/SparseBitSet-1.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.zaxxer/SparseBitSet/1.2/8467c813d442837fcaeddbc42cf5c5359fab4933/SparseBitSet-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/4.1.2/550cc22a598c0b0a51d1f55f8371e83c1229802d/poi-ooxml-schemas-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/9c242093f81288289bc433e383c8a8de89489406/commons-compress-1.19-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.19/7e65777fb451ddab6a9c054beb879e521b7eab78/commons-compress-1.19.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.06/48404d3d9cfeb13c15d9bff1e11cccc7e4cb8f48/curvesapi-1.06-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.github.virtuald/curvesapi/1.06/159dd2e8956459a4eb0a9a6ecda9004d8d289708/curvesapi-1.06.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.10.8/4eb691f93a739d13bb3407e450c3eb4f983dc1ae/ant-1.10.8-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.10.8/ae148abb0532b685c5eeb22fdec9d124e89be5de/ant-1.10.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.16.1/f954f367d8822a219cef5d5c0c63377d452fcecc/javaparser-core-3.16.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.16.1/440e5d7118e50d544418a96873d6322c4b1d5527/javaparser-core-3.16.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/d10a9c3acc6c07a5700e37697b5a6b4dcfb8abf9/junit-4.13-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/e49ccba652b735c93bd6e6f59760d8254cf597dd/junit-4.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.0/388560dc9aa3c479df4e3effce036646c8b89719/junit-jupiter-api-5.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.7.0/b25f3815c4c1860a73041e733a14a0379d00c4d5/junit-jupiter-api-5.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.3.4.RELEASE/ab1099fd038676548eb763db1d1176d1b92828d1/spring-boot-autoconfigure-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.3.4.RELEASE/ff9efafb9d62c17d8c3c1faec7afad147c924263/spring-boot-autoconfigure-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.3.4.RELEASE/28b64005b5cc7e91da8450de99b01255247de911/spring-boot-actuator-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.3.4.RELEASE/ed59b181c7bdf677450f86c15a024b3be3ed5847/spring-boot-actuator-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.3.4.RELEASE/efefbf178f7a5c48ef0aca6bb73aeebe58d39d28/spring-boot-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.3.4.RELEASE/f23f14ae4062d5983db89b7c7336166b6734fc57/spring-boot-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/1ad35f11d17abb52426bfe15ea7b4c583795012/jakarta.annotation-api-1.3.5-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/1.3.5/59eb84ee0d616332ff44aba065f3888cf002cd2d/jakarta.annotation-api-1.3.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.2.9.RELEASE/ba93c8327245240522c9d7f8403ffbb93ade7aa1/spring-context-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.2.9.RELEASE/4003ef2db8b5e4b22330fc6d67aae7ac5d304319/spring-context-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.9.RELEASE/ea7d32bac929c067e9f40bd0982c812fc1da9b94/spring-aop-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.2.9.RELEASE/6ae14b8a11b4a30f22a15c8f97ac4b5d0979a4ef/spring-aop-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.2.9.RELEASE/1ebdc871a72d4b874fc27abb548c8643b6d7b26a/spring-orm-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/5.2.9.RELEASE/e21a091f545e8a87abd721ac5bb2b76431c9c0f2/spring-orm-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.2.9.RELEASE/257bd4d1475493aff32f263056620518d3b14759/spring-jdbc-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.2.9.RELEASE/877e892e80d3b92f24d70e1e4bdd386b2aa9a2/spring-jdbc-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.2.9.RELEASE/7e0e4c33250c81497e166d488fd545bd913c8d79/spring-tx-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.2.9.RELEASE/6e7cc2fe50bebf443f42b91001bd7d4d930ae7a1/spring-tx-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.2.9.RELEASE/efcc6babb0cbd975ce2b2083cce0790dd31f689a/spring-beans-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.2.9.RELEASE/80e722ffa73a43459f639d36e25aa4e4a08d8d79/spring-beans-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.2.9.RELEASE/57566cb936d6da49aaff7a1d458907f1e86c7a38/spring-expression-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.2.9.RELEASE/c8584de306be115ef1715b7ed9d50fb2802867aa/spring-expression-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.9.RELEASE/30e0efc25bf36d306bb807aab06609d0ab2e088c/spring-core-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.2.9.RELEASE/400a6fdb45bfa5318aa7d06360f4495b75080bb5/spring-core-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.26/1f369166f21abc8c07e618c2b9c0897f405d0999/snakeyaml-1.26-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.26/a78a8747147d2c5807683e76ec2b633e95c14fe9/snakeyaml-1.26.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.11.2/637c9c8e9db0ec317d4c66c2b91fc70124730a4/jackson-datatype-jdk8-2.11.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.11.2/d4c1933a8d62db65c3d5a5cd809511e021a189c0/jackson-datatype-jdk8-2.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.11.2/f875f6b480580c65b761d02963efc5d372a618ee/jackson-datatype-jsr310-2.11.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.11.2/e6235e5eb3cf3edd2a95cd0dc96bc48aeb309e8a/jackson-datatype-jsr310-2.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.11.2/24b91098993f2315d81fa46f6f7a810581a335f0/jackson-module-parameter-names-2.11.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.11.2/c0dc526fcef5a3aae0273fc516ecf3505f7a5de8/jackson-module-parameter-names-2.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.2/4f0c6c172892b0fb6b7f09a54cc616b9f9516bca/jackson-databind-2.11.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.2/ee08bbd8975dde844307fe8309dfcd5ec7ee129d/jackson-databind-2.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.38/223feaea95ad55de67c43c7947b98f1030d30193/tomcat-embed-websocket-9.0.38-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/9.0.38/5d33c7736d192dff22bb5a7bef3ac2095573f91a/tomcat-embed-websocket-9.0.38.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.38/c2a226e65fe3a3222ad179e3c1bfc63e4126e40a/tomcat-embed-core-9.0.38-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.38/368aac73f9274896fa8cccf20f4799533629471c/tomcat-embed-core-9.0.38.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.12/d8cf7bad79ef75fd41395c5f464ea38777463d95/HdrHistogram-2.1.12-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.12/6eb7552156e0d517ae80cc2247be1427c8d90452/HdrHistogram-2.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.1.0.Final/f8b3a76e4ca6e843986c38ce27488e53048b1805/hibernate-commons-annotations-5.1.0.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.1.0.Final/700aeedc4a2089816621948f0379e17cbd17d5db/hibernate-commons-annotations-5.1.0.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/a44f0f22bbd9ccb96952806e73f6cc16ef7d2f67/jboss-logging-3.3.2.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.2.Final/3789d00e859632e6c6206adc0c71625559e6e3b0/jboss-logging-3.3.2.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/25665ac8c0b62f50e6488173233239120fc52c96/javax.persistence-api-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/35e11973363a5f0548e617c615b41194d45b3308/ognl-3.1.12-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.1.12/a7fa0db32f882cd3bb41ec6c489853b3bfb6aebc/ognl-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.24.0-GA/88e88c8e043968bac9b2e86df5cb4a7c2b9f0023/javassist-3.24.0-GA-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.24.0-GA/d7466fc2e3af7c023e95c510f06448ad29b225b3/javassist-3.24.0-GA.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.10/9828febfcd1a16de69fb83282613051147ea97/byte-buddy-1.10.10-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.10.10/602a3da70f603752d3ce20a9997817d8dec39b51/byte-buddy-1.10.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/f2f1c0a619a7f51c36f96d9e3eb6e5776834a358/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/a8485cab9484dda36e9a8c319e76b5cc18797b58/jboss-transaction-api_1.2_spec-1.1.1.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.1.3.Final/d02f65de89ef9d5df1046fe21b304be33bae23d6/jandex-2.1.3.Final-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.1.3.Final/cd56603e39eb1421560b71daa584348ecfd9e0b8/jandex-2.1.3.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/504edac38ff03cc5ce1d0391abb1416ffad58a99/classmate-1.5.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed568c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.1/a6eab08c0837ac6ff0b1c1ad47d7945b1385fbda/jaxb-runtime-2.3.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.1/dd6dda9da676a54c5b36ca2806ff95ee017d8738/jaxb-runtime-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/e47264d065cecbc572ba99856fcc7da19a470ae3/jaxb-api-2.3.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.3.1/8531ad5ac454cc2deb9d4d32c40c4d7451939b5d/jaxb-api-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/1b4c6e77d35adab19794746d8ea753df30d77dca/javax.activation-api-1.2.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/javax.activation/javax.activation-api/1.2.0/85262acf3ca9816f9537ca47d5adeabaead7cb16/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.3/fd3c592b44ddb513f9888441ca3510e9f1bcdeb3/dom4j-2.1.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.3/a75914155a9f5808963170ec20653668a2ffd2fd/dom4j-2.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.6/f2724fcd944b5dfc2beba1b9fe64517c8143cd47/aspectjweaver-1.9.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.6/ee3b73aa16df35179255f17354d9dfd8e7822835/aspectjweaver-1.9.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.validation/jakarta.validation-api/2.0.2/ef429a7f3bc2d2d1784a1135668a857a6aaedf31/jakarta.validation-api-2.0.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.validation/jakarta.validation-api/2.0.2/5eacc6522521f7eacb081f95cee1e231648461e7/jakarta.validation-api-2.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.8.6/a4faacce1f7c10c4917f80bcd09bc10f2a884045/caffeine-2.8.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.8.6/4a5b7001467bac95e593322f800d353280a75eff/caffeine-2.8.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-tooling-model/3.6.0/4198621ed2b04c3ec70f280412b69bb7a3bbb75e/camel-tooling-model-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-tooling-model/3.6.0/89e4b59cdfbd25812126968b523d37ef5bfbb78e/camel-tooling-model-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.3/e480ca4208fc77d4c5d9f7d37630237cc1b93b39/jaxb-impl-2.3.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-impl/2.3.3/3758e8c1664979749e647a9ca8c7ea1cd83c9b1e/jaxb-impl-2.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/d83744bae211a4072c39f007000a13f501a88395/jakarta.xml.bind-api-2.3.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3/48e3b9cfc10752fba3521d6511f4165bea951801/jakarta.xml.bind-api-2.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0/10bc9795ef8a09b28590efe9d0ecc06485820106/jaxb-core-2.3.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind/jaxb-core/2.3.0/d044c784e41d026778693fb44a8026c1fd9a7506/jaxb-core-2.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.1.0/d4973a8bf57cb9aaeb24679137789bbf873a7b5f/xmlbeans-3.1.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/3.1.0/6dac1f897dfb3e3f17fc79b18a3353b2e51c464e/xmlbeans-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/41d55b3c2254de9837b4ec8923cbd371b8a7eab5/opentest4j-1.2.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.2.0/28c11eb91f9b6d8e200631d46e20a7f407f2a046/opentest4j-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.2.9.RELEASE/d3967660c275e551559ca4c2c504488c07a5e04c/spring-jcl-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.2.9.RELEASE/39777c3eeaf3d0957d9fdffbb75e3ff8a89caf62/spring-jcl-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.2/128e08218b68149f37f56b209fc8ccc5b5321142/jackson-annotations-2.11.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.2/e0a7f61fce3e3eac38a079c11831868269de2ea/jackson-annotations-2.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.11.2/f08c2af3b8715d9ace84dc111170cb1e28e104ef/jackson-core-2.11.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.11.2/bc022ab0f0c83c07f9c52c5ab9a6a4932b15cc35/jackson-core-2.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.5.RELEASE/14657ecc2618f5cbc894070b01aed1cbeee25456/attoparser-2.0.5.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.5.RELEASE/a93ad36df9560de3a5312c1d14f69d938099fa64/attoparser-2.0.5.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.6.RELEASE/968e1622c27c39bcbcbbecadfb7a0d3c4b8a9d36/unbescape-1.1.6.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.6.RELEASE/7b90360afb2b860e09e8347112800d12c12b2a13/unbescape-1.1.6.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.1/b83e3d8869ba034c44b8b0b233bc050b0c051700/txw2-2.3.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/2.3.1/a09d2c48d3285f206fafbffe0e50619284e92126/txw2-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/3.0.7/c899ff66b36c0cf814b3996d5dd9aa6b4684212c/istack-commons-runtime-3.0.7-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/3.0.7/c197c86ceec7318b1284bffb49b54226ca774003/istack-commons-runtime-3.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.8/bd2cfcaffb7feaecc7632191563f6beb91f2fd30/stax-ex-1.8-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jvnet.staxex/stax-ex/1.8/8cc35f73da321c29973191f2cf143d29d26a1df7/stax-ex-1.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.15/2679fa1855aebe1a48e4ec6928eafe7d261bf228/FastInfoset-1.2.15-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.xml.fastinfoset/FastInfoset/1.2.15/bb7b7ec0379982b97c62cd17465cb6d9155f68e8/FastInfoset-1.2.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-util-json/3.6.0/899e58510191f5c78d8a93784a4464a89a10227c/camel-util-json-3.6.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-util-json/3.6.0/5f5807ce81d9aeb3123dde0e49b45cbab0b5f88/camel-util-json-3.6.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/c45b5962230be8a5f93759203870c98917bb8b31/jakarta.activation-api-1.2.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.2/99f53adba383cb1bf7c3862844488574b559621f/jakarta.activation-api-1.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/735efba8bfdacf25716fa1e2e82f57b2837f8300/log4j-api-2.13.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.18/f03205de8be7a1a71dccdc985f436d3461cf1960/postgresql-42.2.18-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.18/a0a9c1d43c7727eeaf1b729477891185d3c71751/postgresql-42.2.18.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/3b5883b7a5a05b932c699760f0854ca565785a84/h2-1.4.200-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.200/f7533fe7cb8e99c87a43d325a77b4b678ad9031a/h2-1.4.200.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.logstash.logback/logstash-logback-encoder/6.4/ea8b6d2913178b71f7979c6e71e877df72a9f6a7/logstash-logback-encoder-6.4-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.logstash.logback/logstash-logback-encoder/6.4/6b34287e15e40ba8dc79e8bbe1f09815431ae3f6/logstash-logback-encoder-6.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.5.0/acb4745ac343906cd39f9b3776db0e56f251ae6e/checker-qual-3.5.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.5.0/2f50520c8abea66fbd8d26e481d3aef5c673b510/checker-qual-3.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.10.8/5bc214a12d507cfcdd7513c56d7014474ac24f90/ant-junit-1.10.8-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.10.8/f75d2cbe7f63db600fc34e23aa447c27095056cf/ant-junit-1.10.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.10.8/4b97657eac3e76367d8a3adc6b709b80f6d1d3da/ant-launcher-1.10.8-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.10.8/2ca8688d2dad5694237576db782b37279989614d/ant-launcher-1.10.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.10.8/49e3ff90b4012641b3fb402e54686e1d13ad982e/ant-antlr-1.10.8-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.10.8/3d728985e3b6a71b80d10db0d574a60b496590a1/ant-antlr-1.10.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.5.1/9a88fcda7286d094b086118b60578875954896e3/picocli-4.5.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.5.1/ff913b736b6ffc7cdf8144401b02a501554ba0c5/picocli-4.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/a284148a118e10bb84598dfb83f19d1ff128afad/qdox-1.12.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/f7122f6ab1f64bdf9f5970b0e89bfb355e036897/qdox-1.12.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/e93dc55cf5b6f201e850ed339fa52e50d51105d5/jline-2.14.6-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/c3aeac59c022bdc497c8c48ed86fa50450e4896a/jline-2.14.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.7.0/503b02634a84790ed5c8152c6bb57449af4bac9c/junit-platform-launcher-1.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.7.0/cfd2d9c8b6ff9f3880faad828454cd0166bc12d7/junit-platform-launcher-1.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.7.0/987bee3f7c9ae0c219bae82e3cfe073708cbadad/junit-platform-engine-1.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.7.0/eadb73c5074a4ac71061defd00fc176152a4d12c/junit-platform-engine-1.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.0/a382c78ca35b240e3b88b4d68ef6884a365631f0/junit-platform-commons-1.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.7.0/84e309fbf21d857aac079a3c1fffd84284e1114d/junit-platform-commons-1.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.7.0/9c4b766f5e598d39ea76858dcc5a6e3d8fa5ca7f/junit-jupiter-engine-5.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.7.0/d9044d6b45e2232ddd53fa56c15333e43d1749fd/junit-jupiter-engine-5.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.3.0/92959904f1edb06acd3bcbbc4f69d0ef6b838dc0/testng-7.3.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.3.0/a5069c3dfba58d23702f96c3d9f5081f5ce7136f/testng-7.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/fbc38259e2077a428984637d811dac542a6a913e/LatencyUtils-2.0.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.latencyutils/LatencyUtils/2.0.3/769c0b82cb2421c8256300e907298a9410a2a3d3/LatencyUtils-2.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.78/3b3dc3730f4d623904afc62a463ae18710a889d3/jcommander-1.78-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.78/a3927de9bd6f351429bcf763712c9890629d8f51/jcommander-1.78.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/fa3c25fb842cbe9eaa126a007475297f8bf35abe/jakarta.activation-1.2.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.sun.activation/jakarta.activation/1.2.2/74548703f9851017ce2f556066659438019e7eb5/jakarta.activation-1.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,main,performanceTest,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.3.4.RELEASE/cf45e018b1727b1225e5fd41993ebeb0095ba3b7/spring-boot-starter-test-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.3.4.RELEASE/a5fc832082202954b704ef4221a57a47adfb675f/spring-boot-starter-test-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.testcontainers/spock/1.14.3/577e61672b51dc1a5f2617492d9333d3fd03629b/spock-1.14.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.testcontainers/spock/1.14.3/93cfedec73052d6efcdf1500da80fae182af1e67/spock-1.14.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-spring/2.0-M3-groovy-3.0/2960cb442576d416fec706c4c9ed2b9dbde883f1/spock-spring-2.0-M3-groovy-3.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-spring/2.0-M3-groovy-3.0/58dc9c9580034496d59b26a3d9eb07f20196c929/spock-spring-2.0-M3-groovy-3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/2.0-M3-groovy-3.0/711853118305c0d851e2d03dab9e46c43aa71d63/spock-core-2.0-M3-groovy-3.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/2.0-M3-groovy-3.0/9f7b6d8458b4d289378ba2913e7b4684d618e068/spock-core-2.0-M3-groovy-3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/c43fc506196089da87a7bb36ec847b57072a818b/json-path-2.4.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.4.0/765a4401ceb2dc8d40553c2075eb80a8fa35c2ae/json-path-2.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.14.3/cbe811da39cc7da25c25781d8fa7f9cede408c5e/testcontainers-1.14.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.testcontainers/testcontainers/1.14.3/71fc82ba663f469447a19434e7db90f3a872753/testcontainers-1.14.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.rnorth/tcp-unix-socket-proxy/1.0.2/5a4f159acf6febfb02e19dca25ab869dbc73c65e/tcp-unix-socket-proxy-1.0.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.rnorth/tcp-unix-socket-proxy/1.0.2/cf53989130986c60113032e25185f4496ffbc186/tcp-unix-socket-proxy-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.20/8388cb084d8934ee9a66a2f613f0ee5a98abfad7/commons-compress-1.20-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.20/b8df472b31e1f17c232d2ad78ceb1c84e00c641b/commons-compress-1.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.3.4.RELEASE/f73ceaf5f18e08a15e5266d4e0df1a1f6f563388/spring-boot-test-autoconfigure-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.3.4.RELEASE/fdfe878383124d96d477ceba4799eb546cfbdf3d/spring-boot-test-autoconfigure-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.3.4.RELEASE/ec8b147f3db9949d619c3429621d0514157bf8b1/spring-boot-test-2.3.4.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.3.4.RELEASE/e0de9f2db2ef11082af1e9a74259edc7826dbc2f/spring-boot-test-2.3.4.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.7.0/7009caa171d1d6af0f6f09dff25f9f574826a490/junit-jupiter-5.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.7.0/3152d152da916ccbb0715f89f7f873f45362ad7f/junit-jupiter-5.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.7.0/a88cefcc083c0265afeec2ecd62c1dc1a2942015/junit-vintage-engine-5.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/5.7.0/2b808fa5dbbf0b0e16bce19d9936ef78333a030e/junit-vintage-engine-5.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.7.0/c8ff07ae25b187531ca9336a1ce997618cb0b816/junit-jupiter-params-5.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.7.0/521dbecace93d5d7ef13a74aab231befd7954424/junit-jupiter-params-5.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-testkit/1.7.0/5f1fab9491bbcc2c62ee98becbab2b7c3111d20/junit-platform-testkit-1.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-testkit/1.7.0/881df8c3618ad12a06fc872ea7e6fd7aa6e48856/junit-platform-testkit-1.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.16.1/f9dc10a74d690a0bbe2a0c07a4fa33b13db867bb/assertj-core-3.16.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.16.1/6e772120aff69ca3d1583b3d1b36b7529de43ba1/assertj-core-3.16.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/2.2/260c1224a39af35b0dbf85201647125f25f1b40d/hamcrest-core-2.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/2.2/3f2bd07716a31c395e2837254f37f21f0f0ab24b/hamcrest-core-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/a0a13cfc629420efb587d954f982c4c6a100da25/hamcrest-2.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.2/1820c0968dba3a11a1b30669bb1f01978a91dedc/hamcrest-2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.3.3/b269eba4bd6994b8b201a75698d5b2cfc28c6dc3/mockito-junit-jupiter-3.3.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-junit-jupiter/3.3.3/1176ce43cf773e11a5a318ff04e57e55f9187347/mockito-junit-jupiter-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.3.3/cd917802078ffceaa508aa75af70ef62aed20d22/mockito-core-3.3.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/3.3.3/4878395d4e63173f3825e17e5e0690e8054445f1/mockito-core-3.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/d729b258165a2fd9b5d6156c05c4c4f7ca053117/jsonassert-1.5.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.skyscreamer/jsonassert/1.5.0/6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3/jsonassert-1.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.2.9.RELEASE/79809d5bbe9d248b55ef0ca4a008e23f830adfef/spring-test-5.2.9.RELEASE-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.2.9.RELEASE/cdcd16d9931ee1d9cba35ca3c465521794c0b98a/spring-test-5.2.9.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.7.0/70c050a7709f32ffe75078135531afa9bf7ca342/xmlunit-core-2.7.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.xmlunit/xmlunit-core/2.7.0/4d014eac96329c70175116b185749765cee0aad5/xmlunit-core-2.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/19.0.0/46283be41e938dba9ac928ab98de7be6f7a436f1/annotations-19.0.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/19.0.0/efbff6752f67a7c9de3e4251c086a88e23591dfd/annotations-19.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/36c61f1b839bde5b284528cb76f6811efbe0f08b/json-smart-2.3-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c837e3903ff07b478041f761915d764b98e71e05/accessors-smart-1.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/8.0.1/33337282c3c26306c6ac2bfb59bdb1ac378bc091/asm-8.0.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/8.0.1/3f5199523fb95304b44563f5d56d9f5a07270669/asm-8.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/3.3.0/87d69a2fe541243bee05d46ac2d4ce02e83d9835/cglib-nodep-3.3.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/3.3.0/87271c95d5bc9e37e4981c9593ff14d470b6684b/cglib-nodep-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.1/36e4b278b98654980a51e36ef60b186a757ed3d7/objenesis-3.1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.1/48f12deaae83a8dfc3775d830c9fd60ea59bbbca/objenesis-3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/f3c15fe970af864390c8d0634c9f16aca1b064a8/apiguardian-api-1.1.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.0/fc9dff4bb36d627bdc553de77e1f17efd790876c/apiguardian-api-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.5/2c64eeb6c4d0e4bd58b3976f1a44d0007367114d/byte-buddy-agent-1.10.5-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.10.5/d1c949ee74c3421ffd3d9159c867777ded928448/byte-buddy-agent-1.10.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/bf42d7e47a3228513b626dd7d37ac6f072aeca4f/android-json-0.0.20131108.vaadin1-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.rnorth.duct-tape/duct-tape/1.0.8/cf14d77239dd2a6fe0e03a2e8f29c6a80373be1/duct-tape-1.0.8-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.rnorth.duct-tape/duct-tape/1.0.8/92edc22a9ab2f3e17c9bf700aaee377d50e8b530/duct-tape-1.0.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.rnorth.visible-assertions/visible-assertions/2.1.2/aff21b986cb653e69a17e29b3a8307b1ed34740e/visible-assertions-2.1.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.rnorth.visible-assertions/visible-assertions/2.1.2/20d31a578030ec8e941888537267d3123c2ad1c1/visible-assertions-2.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.5.0/d6e67f3d510487a00a266c362e4ca7e8824618e6/jna-platform-5.5.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/5.5.0/af38e7c4d0fc73c23ecd785443705bfdee5b90bf/jna-platform-5.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-native-common/2.0.4/c5c3baaf3ca3fe0012ac6826a232e45ffa704c30/junixsocket-native-common-2.0.4-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-native-common/2.0.4/726bd66a934dea39c817382986496fa4eda96411/junixsocket-native-common-2.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-common/2.0.4/93f60af6bcdca6eee8d3ed5914bcfabb9f2618f0/junixsocket-common-2.0.4-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/com.kohlschutter.junixsocket/junixsocket-common/2.0.4/b4d1870bf903412533e0b79c6fcd402defcfc05b/junixsocket-common-2.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.5.0/4555547b3bfc9d827f5310888726d62944c4f756/jna-5.5.0-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.5.0/e0845217c4907822403912ad6828d8e0b256208/jna-5.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/henninb/.gradle/caches/modules-2/files-2.1/org.scijava/native-lib-loader/2.0.2/b1e0fa440cac2b1ba8ee6694f5a70cd4d79ff85b/native-lib-loader-2.0.2-sources.jar" kind="lib" path="/home/henninb/.gradle/caches/modules-2/files-2.1/org.scijava/native-lib-loader/2.0.2/1451fa03954c5e31a358b411147de472b4dab92c/native-lib-loader-2.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="functionalTest,integrationTest,performanceTest,test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>

@@ -6,6 +6,8 @@ plugins {
     id 'maven-publish'
     id 'groovy'
     id 'idea'
+    id 'eclipse'
+    id 'maven'
     //id 'scala'
     id 'java-library'
     id 'jacoco'
@@ -128,4 +130,10 @@ dependencies {
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
+}
+
+eclipse {
+    project {
+        name = 'example'
+    }
 }
